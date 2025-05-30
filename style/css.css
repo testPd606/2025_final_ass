@@ -85,7 +85,7 @@ a.menu_link {
   flex-flow: column;
   justify-content: center;
   align-items: start;
-  background: transparent url("/images/Hero-Section2.png");
+  background: transparent url("/images/Hero-Section2.png") no-repeat center center / cover;
   position: relative;
   padding: 24px 24px 24px 0;
 }
