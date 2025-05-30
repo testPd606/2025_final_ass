@@ -86,7 +86,7 @@ a.menu_link {
   justify-content: center;
   align-items: start;
   background-color: transparent;
-  background-image: url("/images/Hero-Section2.png");
+  background-image: url("../images/Hero-Section2.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
