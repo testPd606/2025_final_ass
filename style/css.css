@@ -45,11 +45,17 @@ p {
   padding: 24px 0px;
 }
 
-a.menu_link {
+a.menu_link:link,
+a.menu_link:active,
+a.menu_link:visited {
   font-size: 1.75rem;
   font-weight: 700;
   color: #000000;
   display: inline-block;
+}
+
+a.menu_link:hover {
+  color: #0027D5;
 }
 
 .wrapper {
