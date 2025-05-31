@@ -151,7 +151,7 @@ a.menu_link:hover {
   color: inherit;
 }
 
-.tag {
+ul.tag {
   display: flex;
   margin-bottom: 8px;
 }
