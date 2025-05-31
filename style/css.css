@@ -29,6 +29,10 @@ a:hover {
   color: #0027D5;
 }
 
+h2 {
+  
+}
+
 p {
   color: #4b4b4b;
 }
@@ -38,7 +42,7 @@ p {
   margin-bottom: 80px;
 }
 
-.menu {
+ul.menu {
   display: flex;
   justify-content: center;
   gap: 40px;
@@ -62,6 +66,10 @@ a.menu_link:hover {
   display: flex;
   flex-wrap: wrap;  
   border-bottom: 1px solid #6C757D;
+}
+
+.wrapper.decorate {
+  border-top: 1px solid #6C757D;
 }
 
 .banner {
