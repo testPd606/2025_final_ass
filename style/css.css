@@ -250,12 +250,6 @@ a.tag_title {
   padding: 0px 12px;
 }
 
-.main_detail {
-  max-width: 660px;
-  margin: 0 auto 80px;
-  padding: 0 12px;
-}
-
 .course {
   display: flex;
   flex-wrap: wrap;
@@ -320,12 +314,29 @@ a.tag_title {
   outline: none;
 }
 
+.main_detail {
+  max-width: 660px;
+  margin: 0 auto 80px;
+  padding: 0 12px;
+}
+
 .main_detail h2 {
   margin-bottom: 24px;
 }
 
 .main_detail section {
   margin-bottom: 24px;
+}
+
+.main_detail section.distance {
+  margin-bottom: 48px;
+}
+
+.main_detail section a:link,
+.main_detail section a:active,
+.main_detail section a:visited {
+  color: #0027D5;
+  text-decoration: underline;
 }
 
 .main_detail h3 {
@@ -339,23 +350,40 @@ a.tag_title {
   margin-bottom: 24px;
 }
 
+.main_detail .aside p {
+  font-weight: 700;
+}
+
 .main_detail p {
   color: #000000;
 }
 
-.main_detail .aside p {
-  font-weight: 700;
+.main_detail p.distance {
+  margin-bottom: 8px;
 }
 
 .main_detail img {
   margin: 24px 0;
 }
 
-.main_detail ol {
-  
+.main_detail ol {  
+  margin-left: 25px;
+}
+
+.main_detail ol.disc {
+  list-style-type: disc;
+}
+
+.main_detail ol.decimal {
+  list-style-type: decimal;
+}
+
+.main_detail ol.disc li::marker {
+  font-size: 0.625rem;
 }
 
 .strong {
+  font-weight: 500;
   color: #0027d5;
 }
 
@@ -376,6 +404,28 @@ a.tag_title {
   color: #0027D5;
 }
 
+.page_nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page_nav-item {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 40px;
+  border: 1px solid #4B4B4B;
+  line-height: 1;
+}
+
+.page_nav-item i {
+  font-size: 1.5rem;
+  vertical-align: text-top;
+}
+
+.page_nav-item:hover {
+  border-color: #0027D5;
+}
+
 @media (min-width: 992px) {
   .course_item:nth-child(3n) {
     margin-right: 0;
@@ -383,7 +433,7 @@ a.tag_title {
 }
 
 @media (max-width: 1320px) {
-  .main, .main_detail {
+  .main {
     margin: 0 0 80px;    
   }
 }
@@ -399,7 +449,7 @@ a.tag_title {
 }
 
 @media (max-width: 768px) {
-  .main, .main_detail {
+  .main {
     margin: 0 0 64px;
   }
 
@@ -413,6 +463,18 @@ a.tag_title {
     margin-top: 16px;
     margin-right: 0;
     margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 660px) {
+  .main_detail {
+    margin: 0 0 80px;
+  }
+}
+
+@media (max-width: 375px) {
+  .main_detail {
+    margin: 0 0 64px;
   }
 }
 /* main end */
