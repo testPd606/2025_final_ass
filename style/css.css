@@ -13,6 +13,16 @@ body {
   color: black;
 }
 
+main {
+  margin-bottom: 80px;  
+}
+
+@media (max-width: 768px) {
+  main {
+    margin-bottom: 64px;
+  }
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -245,8 +255,9 @@ a.tag_title {
 /* main */
 .main {
   max-width: 1320px;
-  margin: 0 auto 80px;
-  padding: 0px 12px;
+  padding: 0 12px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .course {
@@ -315,8 +326,9 @@ a.tag_title {
 
 .main_detail {
   max-width: 660px;
-  margin: 0 auto 80px;
   padding: 0 12px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main_detail h2 {
@@ -431,12 +443,6 @@ a.tag_title {
   }
 }
 
-@media (max-width: 1320px) {
-  .main {
-    margin: 0 0 80px;    
-  }
-}
-
 @media (max-width: 991px) {
   .course_item {
     flex-basis: calc((100% - 24px) / 2);
@@ -448,10 +454,6 @@ a.tag_title {
 }
 
 @media (max-width: 768px) {
-  .main {
-    margin: 0 0 64px;
-  }
-
   .search {
     width: 100%;
     margin-bottom: 24px;
@@ -464,18 +466,6 @@ a.tag_title {
     margin-bottom: 16px;
   }
 }
-
-@media (max-width: 660px) {
-  .main_detail {
-    margin: 0 0 80px;
-  }
-}
-
-@media (max-width: 375px) {
-  .main_detail {
-    margin: 0 0 64px;
-  }
-}
 /* main end */
 /* footer */
 .footer {
@@ -485,22 +475,15 @@ a.tag_title {
 .contact {
   display: flex;
   justify-content: space-between;
-  max-width: 1296px;
+  max-width: 1320px;
   margin: 0 auto;
-  padding: 80px 0;
-}
-
-.emailAddr {
-  width: 75%;
-}
-
-.socialMedia {
-  width: 25%;
+  padding: 80px 12px;
 }
 
 .emailAddr {
   display: flex;
   align-items: center;
+  width: 50%;
 }
 
 .emailAddr > a {
@@ -511,6 +494,8 @@ a.tag_title {
 .socialMedia {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
+  width: 50%;
 }
 
 .copyright {
@@ -521,7 +506,7 @@ a.tag_title {
 
 @media (max-width: 768px) {
   .contact {
-    padding: 64px 0;
+    padding: 64px 12px;
   }
 }
 
