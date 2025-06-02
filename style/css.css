@@ -114,13 +114,7 @@ a.menu_link:hover {
   display: flex;
   flex-flow: column;
   justify-content: center;
-  align-items: start;
-  background-color: transparent;
-  background-image: url("../images/Hero-Section2.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  position: relative;
+  background: transparent url("../images/Hero-Section2.png") no-repeat center center / cover;
   padding: 24px 24px 24px 0;
 }
 
