@@ -40,7 +40,10 @@ a:hover {
 
 h2 {
   font-size: 1.75rem;
-  font-weight: 700;
+  font-weight: 700;  
+}
+
+h2.tag {
   color: #0027d5;
 }
 
