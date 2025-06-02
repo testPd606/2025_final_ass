@@ -212,14 +212,14 @@ a.tag_title {
   font-weight: inherit;
 }
 
-.more_link {
+.link {
   display: inline-block;
   padding: 8px 16px;
   border: 1px solid black;
   border-radius: 40px;
 }
 
-.more_link:hover {
+.link:hover {
   border-color: #0027D5;
 }
 
@@ -420,7 +420,9 @@ a.tag_title {
   justify-content: space-between;
 }
 
-.page_nav-item {
+a.page_nav-item:link,
+a.page_nav-item:active,
+a.page_nav-item:visited {
   display: inline-block;
   padding: 8px 16px;
   border-radius: 40px;
@@ -428,12 +430,12 @@ a.tag_title {
   line-height: 1;
 }
 
-.page_nav-item i {
+a.page_nav-item i {
   font-size: 1.5rem;
   vertical-align: text-top;
 }
 
-.page_nav-item:hover {
+a.page_nav-item:hover {
   border-color: #0027D5;
 }
 
