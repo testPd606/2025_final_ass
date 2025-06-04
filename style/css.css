@@ -872,7 +872,7 @@ a.page_nav-item:hover {
 
 @media (max-width: 375px) {
   .section_title {
-    width: 4ch;
+    width: 7ch;
     word-wrap: break-word;
   }
 }
