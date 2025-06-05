@@ -200,6 +200,7 @@ a.menu_link:hover {
 
 ul.tag {
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 8px;
 }
 
