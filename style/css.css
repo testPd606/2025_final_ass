@@ -779,6 +779,10 @@ a.page_nav-item:hover {
     flex-wrap: wrap;
   }
 
+  .case_content-text {
+    padding: 40px 24px;
+  }
+
   .course_item {
     flex-basis: calc((100% - 24px) / 2);
   }
@@ -837,10 +841,6 @@ a.page_nav-item:hover {
 
   .section_title {
     font-size: 3rem;
-  }
-
-  .case_content-text {
-    padding: 40px 24px;
   }
 
   .case_content-text.top {
@@ -990,17 +990,13 @@ a.contact_item:hover span {
   background-color: #ffffff;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1473px) {
   footer .bannerTop-right {
     padding: 12px;
   }
 }
 
 @media (max-width: 768px) {
-  footer .bannerTop-right {
-    padding: 12px;
-  }
-
   footer > .wrapper {
     margin-bottom: 64px;
   }
