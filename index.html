@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,23 +8,28 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="style/css.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9M7PQKGX5G"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-9M7PQKGX5G');
+    </script>
 </head>
 <body>
     <header>
-        <ul class="menu">
-            <li class="menu-item"data-aos="fade-zoom-in"
+        <nav class="menu">
+            <a href="index.html" class="menu_link" data-aos="fade-zoom-in"
             data-aos-easing="ease-in-back"
             data-aos-delay="300"
-            data-aos-offset="0">
-                <a href="index.html" class="menu_link">首頁</a>
-            </li>
-            <li class="menu-item"data-aos="fade-zoom-in"
+            data-aos-offset="0">首頁</a>
+            <a href="blog.html" class="menu_link" data-aos="fade-zoom-in"
             data-aos-easing="ease-in-back"
             data-aos-delay="300"
-            data-aos-offset="0">
-                <a href="blog.html" class="menu_link">部落格</a>
-            </li>
-        </ul>
+            data-aos-offset="0">部落格</a>
+        </nav>
         <div class="wrapper">
             <div class="banner bannerTop-left" data-aos="fade-up" data-aos-duration="1000">
                 <img src="images/Hero-Section.png" alt="banner">
@@ -44,27 +49,27 @@
                     擅長 React、Vue 等框架，同時熱愛為轉職與新手工程師提供職涯指導。邀請你與我一起，開啟更具潛能的程式與職涯之旅！
                     </p>
                     <ul class="socialMedia">
-                        <li class="socialMedia_item">
+                        <li>
                             <a href="blog-detail.html" class="socialMedia_link">
                                 <img src="images/onlyIcon.png" alt="YouTube">
                             </a>
                         </li>
-                        <li class="socialMedia_item">
+                        <li>
                             <a href="blog-detail.html" class="socialMedia_link">
                                 <img src="images/onlyIcon-1.png" alt="Apple Podcasts">
                             </a>
                         </li>
-                        <li class="socialMedia_item">
+                        <li>
                             <a href="blog-detail.html" class="socialMedia_link">
                                 <img src="images/onlyIcon-2.png" alt="Facebook">
                             </a>
                         </li>
-                        <li class="socialMedia_item">
+                        <li>
                             <a href="blog-detail.html" class="socialMedia_link">
                                 <img src="images/icons8-linkedin.png" alt="LinkedIn">
                             </a>
                         </li>
-                        <li class="socialMedia_item">
+                        <li>
                             <a href="blog-detail.html" class="socialMedia_link">
                                 <img src="images/onlyIcon-3.png" alt="Instagram">
                             </a>
