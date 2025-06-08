@@ -421,7 +421,7 @@ a.serve-contact:hover > h2 > i {
   height: 44px;
   position: absolute;
   top: 50%;
-  transform: translatey(-50%);
+  transform: translateY(-50%);
   z-index: 10;
 }
 
@@ -541,6 +541,7 @@ a.case_content-link:hover {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 1;
+  line-clamp: 1;
   overflow: hidden;
 }
 
@@ -555,6 +556,7 @@ a.case_content-link:hover {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 1;
+  line-clamp: 1;
   overflow: hidden;
 }
 
