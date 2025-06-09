@@ -918,6 +918,15 @@ footer .section:nth-child(2).baseline {
   display: block;
 }
 
+.mc-field-group {
+  margin-bottom: 8px;
+}
+
+.mc-field-group:nth-child(4),
+.response {
+  margin-bottom: 24px;
+}
+
 .newsletter_input {
   width: 100%;
   font-size: 1.25rem;
@@ -927,21 +936,17 @@ footer .section:nth-child(2).baseline {
   padding: 8px 16px;
   background-color: #f1f1f1;
   border: 0;
-  margin-bottom: 8px;
 }
 
-.newsletter_input:nth-child(4) {
-  margin-bottom: 24px;
-}
-
-.newsletter a.link:link,
-.newsletter a.link:active,
-.newsletter a.link:visited {
+.newsletter input.link{
   color: #0027D5;
   border-color: #0027D5;
+  background-color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
 }
 
-.newsletter a.link:hover {
+.newsletter input.link:hover {
   color: #4b4b4b;
   border-color: #4b4b4b;
 }
