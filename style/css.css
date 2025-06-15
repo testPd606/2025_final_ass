@@ -968,7 +968,11 @@ a.contact_item:hover {
   color: #0027D5;
 }
 
-a.contact_item span {
+.cic_email, .cic_talk {
+  display: inline-block;
+}
+
+.cic_email {
   border-bottom: 1px solid #000000;
 }
 
@@ -1035,7 +1039,6 @@ a.contact_item:hover span {
   }
 
   a.contact_item span {
-    display: block;
     margin-bottom: 8px;
   }
 
